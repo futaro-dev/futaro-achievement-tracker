@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  gap: 10px;
+
+  background-color: gray;
+  width: 500px;
+  height: 80px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 8px 16px rgba(107, 98, 98, 0.3);
+}
+
+.image {
+  width: 50px;
+  margin-block: auto;
+}
+
+.image > img {
+  width: 64px;
+}
+
+.information {
+  margin-left: 10px;
+  margin: auto;
+  text-align: left;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.text {
+  font-size: 12px;
+}
